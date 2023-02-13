@@ -1,0 +1,302 @@
+* {
+padding: 0;
+margin: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contain {
+    background: linear-gradient(rgba(95, 94, 63, 0.8), rgba(95, 94, 63, 0.8)), url(./assets/image/pexels-tima-miroshnichenko-6694543.jpg);
+    background-size: cover;
+    height: 850px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.hr1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 3rem;
+    margin: 2rem;
+}
+
+.line1 {
+    width: 2.9rem;
+    background-color: #ffc107;
+    padding: 3px;
+    border: 1px;
+    border-color: #ffc107;
+    border-radius: 1rem;
+}
+
+.explore p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-c {
+    background-color: #ffc107;
+    border-color: white;
+    padding: 1rem;
+    font-weight: 900;
+    border: 1px solid #ffc107;
+    border-radius: 1rem;
+    width: 10rem;
+}
+
+.needs {
+    background-color: #ffc107;
+    height: 450px;
+    color: bisque;
+}
+
+.needs h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 4rem;
+}
+
+.needs p {
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 33rem;
+    padding-right: 33rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.hr2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.needs hr {
+    width: 2.8rem;
+    background-color: #ffc1ff;
+    border: 1px;
+    border-radius: 1rem;
+    border-color: #ffc1ff;
+    padding: 3px;
+    
+}
+
+.started {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.needs button {
+    background-color: black;
+    border-color: whitesmoke;
+    padding: 1rem;
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 10rem;
+    color: #ffc107;
+}
+
+.services {
+    background-color: #ffffff;
+    height: 350px;
+    color: black;
+    margin-bottom: 5rem;
+}
+
+.services h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 4rem;
+    
+}
+
+.hr3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services hr {
+    width: 2.8rem;
+    background-color: #ffc107;
+    border: 1px;
+    border-radius: 1rem;
+    border-color: #ffc107;
+    padding: 3px;
+}
+
+.word-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3rem;
+    color: #808080;
+}
+
+.pic-icon {
+    width: 100%;
+    max-width: 1.5rem;
+    height: auto;
+    color: #ffc107;
+}
+
+.word-zone:hover {
+    cursor: pointer;
+    background: linear-gradient(greenyellow, orange, yellow);
+    padding: 1rem;
+    height: 150px;
+}
+
+.peruse:hover {
+    cursor: pointer;
+    background: linear-gradient(greenyellow, orange, yellow);
+    padding: 1rem;
+    height: 150px;
+}
+
+.publish:hover {
+    cursor: pointer;
+    background: linear-gradient(greenyellow, orange, yellow);
+    padding: 1rem;
+    height: 150px;
+}
+
+.love:hover {
+    cursor: pointer;
+    background: linear-gradient(greenyellow, orange, yellow);
+    padding: 1rem;
+    height: 150px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.description {
+    font-weight: 300;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.photography {
+    height: 350px;
+    width: 650px;
+}
+
+.get-in-touch h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 4rem;
+}
+
+.hr4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.get-in-touch hr {
+    width: 2.8rem;
+    background-color: #ffc107;
+    border: 1px;
+    border-radius: 1rem;
+    border-color: #ffc107;
+    padding: 3px;
+}
+
+.get-in-touch p {
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 33rem;
+    padding-right: 33rem;
+    color: #808080;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.pre-end {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    margin-top: 1rem;
+}
+
+.contact-email {
+    display: flex;
+}
+
+.contact {
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-top: 6rem;
+}
+
+.email {
+    padding-left: 55rem;
+    padding-right: 15rem;
+    
+}
+
+.email a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #808080;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
